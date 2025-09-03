@@ -1,0 +1,37 @@
+G:\C# code\login-form\login-form\bin\Debug\login-form.exe.config
+G:\C# code\login-form\login-form\bin\Debug\login-form.exe
+G:\C# code\login-form\login-form\bin\Debug\login-form.pdb
+G:\C# code\login-form\login-form\obj\Debug\login-form.csprojResolveAssemblyReference.cache
+G:\C# code\login-form\login-form\obj\Debug\login_form.Form1.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.Properties.Resources.resources
+G:\C# code\login-form\login-form\obj\Debug\login-form.csproj.GenerateResource.Cache
+G:\C# code\login-form\login-form\obj\Debug\login-form.exe
+G:\C# code\login-form\login-form\obj\Debug\login-form.pdb
+G:\C# code\login-form\login-form\obj\Debug\login_form.admin.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.manager.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.AD2.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.AD3.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.AD4.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.MP2.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.MP3.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.MP4.resources
+G:\C# code\login-form\login-form\obj\Debug\login_form.MP0.resources
+E:\C#C#C#\login-form\login-form\bin\Debug\login-form.exe.config
+E:\C#C#C#\login-form\login-form\bin\Debug\login-form.exe
+E:\C#C#C#\login-form\login-form\bin\Debug\login-form.pdb
+E:\C#C#C#\login-form\login-form\obj\Debug\login-form.csproj.AssemblyReference.cache
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.AD2.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.AD3.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.AD4.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.manager.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.Form1.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.admin.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.MP0.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.MP2.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.MP3.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.MP4.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login_form.Properties.Resources.resources
+E:\C#C#C#\login-form\login-form\obj\Debug\login-form.csproj.GenerateResource.cache
+E:\C#C#C#\login-form\login-form\obj\Debug\login-form.csproj.CoreCompileInputs.cache
+E:\C#C#C#\login-form\login-form\obj\Debug\login-form.exe
+E:\C#C#C#\login-form\login-form\obj\Debug\login-form.pdb
