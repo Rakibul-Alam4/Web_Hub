@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{750CA3C6-1819-4AB3-BB9D-EFCE0F1810F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelDreamSTS</RootNamespace>
+    <AssemblyName>HotelDreamSTS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="FormOwnerPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOwnerPage.Designer.cs">
+      <DependentUpon>FormOwnerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerDetails.Designer.cs">
+      <DependentUpon>ManagerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HotelSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotelSystem.Designer.cs">
+      <DependentUpon>HotelSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerPage0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerPage0.Designer.cs">
+      <DependentUpon>ManagerPage0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPage1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPage1.Designer.cs">
+      <DependentUpon>MPage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPage2.Designer.cs">
+      <DependentUpon>MPage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPage3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPage3.Designer.cs">
+      <DependentUpon>MPage3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPage4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPage4.Designer.cs">
+      <DependentUpon>MPage4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MPage5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MPage5.Designer.cs">
+      <DependentUpon>MPage5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffDetails.Designer.cs">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TotalIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalIncome.Designer.cs">
+      <DependentUpon>TotalIncome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormOwnerPage.resx">
+      <DependentUpon>FormOwnerPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotelSystem.resx">
+      <DependentUpon>HotelSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerDetails.resx">
+      <DependentUpon>ManagerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerPage0.resx">
+      <DependentUpon>ManagerPage0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPage1.resx">
+      <DependentUpon>MPage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPage2.resx">
+      <DependentUpon>MPage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPage3.resx">
+      <DependentUpon>MPage3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPage4.resx">
+      <DependentUpon>MPage4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MPage5.resx">
+      <DependentUpon>MPage5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StaffDetails.resx">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalIncome.resx">
+      <DependentUpon>TotalIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
